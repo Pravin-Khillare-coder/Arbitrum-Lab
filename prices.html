@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Prices</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo" style="display:flex;">
+    <img src="images/logo_color.svg" alt="logo">
+    <h2>Web3 Explorer</h2>
+</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="concepts.html">Concepts</a>
+        <a href="prices.html" class="active">Prices</a>
+        <a href="simulator.html">Simulator</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Crypto Prices</h1>
+
+    <div class="grid">
+        <div class="card" id="eth">Loading...</div>
+        <div class="card" id="btc">Loading...</div>
+    </div>
+
+    <button id="refresh">Refresh</button>
+</div>
+
+<script src="js/prices.js"></script>
+
+</body>
+</html>
