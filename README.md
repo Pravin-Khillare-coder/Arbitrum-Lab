@@ -47,6 +47,11 @@ This project helps users understand Ethereum scaling, view crypto prices, and in
 - CSS3  
 - JavaScript  
 
+# 🚀 Web3 Explorer – Arbitrum Lab
+
+🌐 **Live Demo:** [Click Here to View](https://pravin-khillare-coder.github.io/Arbitrum-Lab/)
+
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
