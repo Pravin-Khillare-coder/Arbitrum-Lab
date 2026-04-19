@@ -21,5 +21,7 @@ function show(id, name, price, change) {
 }
 
 document.getElementById("refresh").onclick = getPrices;
+document.getElementById("eth").innerHTML = "⏳ Loading...";
+document.getElementById("btc").innerHTML = "⏳ Loading...";
 
 getPrices();

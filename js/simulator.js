@@ -90,3 +90,8 @@ async function mineBlock2() {
     console.log("Block 2 mined:", hashVal);
     
 }
+// 🚨 Auto break chain if Block 1 changes
+document.getElementById("data1").addEventListener("input", () => {
+    document.getElementById("status2").innerText = "Invalid Chain ❌";
+    document.getElementById("hash2").innerText = "";
+});
